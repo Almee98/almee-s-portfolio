@@ -1,0 +1,31 @@
+.container {
+    left: 10%;
+    top: 20%;
+
+    form {
+        padding: 30px;
+
+        .input-group {
+            margin-bottom: 15px;
+        }
+        label {
+            display: block;
+            margin-bottom: 10px;
+        }
+        input {
+            padding: 12px 20px;
+            width: 100%;
+            border: 1px solid #ccc;
+        }
+        .submit-btn {
+            width: 100%;
+            border: none;
+            background: #32105f;
+            font-size: 18px;
+            color: white;
+            border-radius: 3px;
+            padding: 20px;
+            text-align: center;
+        }
+    }
+}

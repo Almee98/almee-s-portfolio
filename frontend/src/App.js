@@ -6,6 +6,7 @@ import About from './components/About';
 import Contact from './components/Contact';
 import Contribution from './components/Contribution';
 import Testimonial from './components/Testimonial';
+import TestimonialForm from './components/TestimonialForm';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path="contact" index element={<Contact />} />
         <Route path="contribution" index element={<Contribution />} />
         <Route path="testimonial" index element={<Testimonial />} />
+        <Route path="testimonial-form" index element={<TestimonialForm />} />
       </Route>
     </Routes>
     
